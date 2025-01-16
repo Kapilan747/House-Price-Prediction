@@ -42,17 +42,29 @@ python house_price_prediction.py
 ```
 
 **Workflow**
+
 1.Data Inspection:
+
   Display dataset shape, column info, and basic statistics.
+  
 2.Data Cleaning:
-  Handle missing values and remove outliers using IQR.
+
+  Handle missing values and remove outliers using IQR.  
+  
 3.EDA:
+
   Visualize relationships between features and the target variable.
+  
 4.Feature Engineering:
+
   Encode categorical variables and scale numerical features.
+  
 5.Model Building:
+
   Use Recursive Feature Elimination (RFE) and OLS for feature selection.
+  
 6.Model Evaluation:
+
   Evaluate the model using R² score and residual analysis.
 
   
